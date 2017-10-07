@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>CSS3_seascape</title>
+  <title>Welcome to Swakop Mine Management System!!!!</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -18,58 +18,26 @@
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
           <h1><a href="index.html">CSS3<span class="logo_colour">_seascape</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+         
         </div>
       </div>
       <nav>
         <ul class="sf-menu" id="nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="examples.html">Examples</a></li>
-          <li><a href="page.html">A Page</a></li>
-          <li class="selected"><a href="another_page.html">Another Page</a></li>
-          <li><a href="#">Example Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down One</a></li>
-              <li><a href="#">Drop Down Two</a>
-                <ul>
-                  <li><a href="#">Sub Drop Down One</a></li>
-                  <li><a href="#">Sub Drop Down Two</a></li>
-                  <li><a href="#">Sub Drop Down Three</a></li>
-                  <li><a href="#">Sub Drop Down Four</a></li>
-                  <li><a href="#">Sub Drop Down Five</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down Three</a></li>
-              <li><a href="#">Drop Down Four</a></li>
-              <li><a href="#">Drop Down Five</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+       
+          
       </nav>
     </header>
     <div id="site_content">
       
       <div id="sidebar_container">
+        
         <div class="sidebar">
-          <h3>Latest News</h3>
-          <h4>New Website Launched</h4>
-          <h5>January 1st, 2012</h5>
-          <p>2012 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        </div>
-        <div class="sidebar">
-          <h3>Useful Links</h3>
-          <ul>
-            <li><a href="#">First Link</a></li>
-            <li><a href="#">Another Link</a></li>
-            <li><a href="#">And Another</a></li>
-            <li><a href="#">One More</a></li>
-            <li><a href="#">Last One</a></li>
-          </ul>
+         
         </div>
       </div>
       <div class="content">
-        <h1>Student Registration Page</h1>
+        <h1>visitors Registration Page</h1>
 		<p><img src="images/st_reg.jpg " alt="check in" height="100" width="642" /></p>
       <?php
 
@@ -97,11 +65,11 @@ $result=mysql_query($sql);
 
 // if successfully insert data into database, displays message "Successful". 
 if($result){
-echo "Student Deatils Added successfully ";
+echo "visitors Deatils Added successfully ";
 echo "<BR>";
-echo "Student id is $visitor_id";
+echo "visitors id is $visitor_id";
 echo "<BR>";
-echo "<a href='st_reg.php'>insert another Student Details</a>";
+echo "<a href='st_reg.php'>insert another visitors Details</a>";
 echo "<BR>";
 echo "<a href='index.php'>Back to home page</a>";
 }
@@ -109,7 +77,7 @@ echo "<a href='index.php'>Back to home page</a>";
 else {
 echo "ERROR";
 echo "<BR>";
-echo "please check the student id or name";
+echo "please check the visitors id or name";
 echo "<BR>";
 echo "<a href='st_reg.php'>try again</a>";
 
@@ -123,7 +91,7 @@ mysql_close();
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; 2014 <a href="http://www.grprajapat.blogspot.com">grprajapat.blogspot.com </a> | <a href="http://www.grprajapat.meximas.com">Developed By-Govind Prajapat. </a></p>
+      <p>Copyright &copy; 2014 Welcome to Swakop Mine Management System!!!!</a></p>
     </footer>
   </div>
   <p>&nbsp;</p>
