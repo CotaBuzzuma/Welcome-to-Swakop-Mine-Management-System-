@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Online Log Register(Visitor Management System www.grprajapat.blogspot.com)</title>
+  <title>Welcome to Swakop Mine Management System!!!!</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -17,8 +17,8 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.php">Online Log Register</a></h1>
-          <h2>Visitor Management System in Library</h2>
+          <h1><a href="index.php">Welcome to Swakop Mine Management System!!!!</a></h1>
+          <h2>Visitor Management System in mine..</h2>
         </div>
       </div>
       <nav>
@@ -30,7 +30,7 @@
 		  <li><a href="check_in_list.php">Check in List</a></li>
           <li><a href="#">Others</a>
             <ul>
-              <li><a href="search.php">Search Student</a></li>
+              <li><a href="search.php">Search visitors</a></li>
 			  
             <li><a href="#">final report</a>
                 <ul>
@@ -39,34 +39,21 @@
                   
                 </ul>
               </li>
-              <li><a href="st_reg.php">New Student Registration</a></li>
-			   <li><a href="st_list.php">See All Students</a></li>
+              <li><a href="st_reg.php">New visitors Registration</a></li>
+			   <li><a href="st_list.php">See All visitors</a></li>
             
             </ul>
           </li>
-          <li><a href="http://grprajapat.meximas.com/contact-us.html">Contact Us</a></li>
-        </ul>
+          
       </nav>
     </header>
     <div id="site_content">
       
        <div id="sidebar_container">
         <div class="sidebar">
-          <h3>Latest News</h3>
-          <h4>New CICO System Launched</h4>
-          <h5>Sept 10th, 2014</h5>
-          <p>Check in Check Out System Design For Library. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        </div>
+        
         <div class="sidebar">
-          <h3>Useful Links</h3>
-          <ul>
-            <li><a href="check_in.php">Check in</a></li>
-            <li><a href="check_out.php">Check out</a></li>
-            <li><a href="check_in_list.php">Currently Checked in User</a></li>
-            <li><a href="current_day_report.php">Final Report Current Day</a></li>
-			<li><a href="st_reg.php">New Student Registration</a></li>
-            <li><a href="report_between_two_dates.php">Final Report Between Two Dates</a></li>
-          </ul>
+          
         </div>
       </div>
       <div class="content">
@@ -85,7 +72,7 @@ $result=mysql_query($sql);
 <td width="664" bordercolor="#00FF00" bgcolor="red">
 <table width="654" border="1" cellspacing="0" cellpadding="3" bgcolor="#CC0033">
 <tr>
-<td colspan="4"><strong>Student List Which comes in library Today </strong> </td>
+<td colspan="4"><strong>visitors List Which comes in mine Today </strong> </td>
 </tr>
 
 <tr>
@@ -126,7 +113,7 @@ mysql_close();
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; 2014 <a href="http://www.grprajapat.blogspot.com">grprajapat.blogspot.com </a> | <a href="http://www.grprajapat.meximas.com">Developed By-Govind Prajapat. </a></p>
+      <p>Copyright &copy; 2014 Welcome to Swakop Mine Management System!!!!</p>
     </footer>
   </div>
   <p>&nbsp;</p>

@@ -81,11 +81,11 @@ $result=mysql_query($sql);
 
 // if successfully insert data into database, displays message "Successful". 
 if($result){
-echo "Student Added successfully in Log Record ";
+echo "Visitor Added successfully in Log Record ";
 echo "<BR>";
 echo "visitor id is $visitor_id";
 echo "<BR>";
-echo "<a href='check_in.php'>insert another Student Record</a>";
+echo "<a href='check_in.php'>insert another Visitor Record</a>";
 echo "<BR>";
 echo "<a href='index.php'>Back to home page</a>";
 }

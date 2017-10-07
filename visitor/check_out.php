@@ -52,7 +52,7 @@
       <div id="sidebar_container">
         
         <div class="sidebar">
-         >
+         
         </div>
       </div>
       <div class="content">

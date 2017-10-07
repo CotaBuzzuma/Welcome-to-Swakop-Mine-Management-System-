@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>CSS3_seascape</title>
+  <title>Welcome to Swakop Mine Management System!!!!</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -18,56 +18,23 @@
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
           <h1><a href="index.html">CSS3<span class="logo_colour">_seascape</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+          <h2></h2>
         </div>
       </div>
       <nav>
         <ul class="sf-menu" id="nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="examples.html">Examples</a></li>
-          <li><a href="page.html">A Page</a></li>
-          <li class="selected"><a href="another_page.html">Another Page</a></li>
-          <li><a href="#">Example Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down One</a></li>
-              <li><a href="#">Drop Down Two</a>
-                <ul>
-                  <li><a href="#">Sub Drop Down One</a></li>
-                  <li><a href="#">Sub Drop Down Two</a></li>
-                  <li><a href="#">Sub Drop Down Three</a></li>
-                  <li><a href="#">Sub Drop Down Four</a></li>
-                  <li><a href="#">Sub Drop Down Five</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down Three</a></li>
-              <li><a href="#">Drop Down Four</a></li>
-              <li><a href="#">Drop Down Five</a></li>
-            </ul>
+         
           </li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+        
       </nav>
     </header>
     <div id="site_content">
       
       <div id="sidebar_container">
+       
         <div class="sidebar">
-          <h3>Latest News</h3>
-          <h4>New CICO System Launched</h4>
-          <h5>Sept 10th, 2014</h5>
-          <p>Check in Check Out System Design For Library. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        </div>
-        <div class="sidebar">
-          <h3>Useful Links</h3>
-          <ul>
-            <li><a href="check_in.php">Check in</a></li>
-            <li><a href="check_out.php">Check out</a></li>
-            <li><a href="check_in_list.php">Currently Checked in User</a></li>
-            <li><a href="current_day_report.php">Final Report Current Day</a></li>
-			<li><a href="st_reg.php">New Student Registration</a></li>
-            <li><a href="report_between_two_dates.php">Final Report Between Two Dates</a></li>
-          </ul>
-        </div>
+          
       </div>
       <div class="content">
         <h1>Search Result</h1>
@@ -144,7 +111,7 @@ mysql_close();
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; 2014 <a href="http://www.grprajapat.blogspot.com">grprajapat.blogspot.com </a> | <a href="http://www.grprajapat.meximas.com">Developed By-Govind Prajapat. </a></p>
+      <p>Copyright &copy; 2017 Welcome to Swakop Mine Management System!!!! </a></p>
     </footer>
   </div>
   <p>&nbsp;</p>
