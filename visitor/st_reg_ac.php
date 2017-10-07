@@ -17,7 +17,7 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">CSS3<span class="logo_colour">_seascape</span></a></h1>
+          <h1><a href="index.html"><span class="logo_colour"></span></a></h1>
          
         </div>
       </div>

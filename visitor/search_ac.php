@@ -37,7 +37,7 @@
           
       </div>
       <div class="content">
-        <h1>Search Result</h1>
+      
 		
       <?php
 	  //get value from form

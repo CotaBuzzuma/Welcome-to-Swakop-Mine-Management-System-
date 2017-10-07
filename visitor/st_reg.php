@@ -30,7 +30,7 @@
 		  <li><a href="check_in_list.php">Check in List</a></li>
           <li><a href="#">Others</a>
             <ul>
-              <li><a href="search.php">Search Student</a></li>
+            
 			  
             <li><a href="#">final report</a>
                 <ul>
