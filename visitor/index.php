@@ -30,7 +30,7 @@
 		  <li><a href="check_in_list.php">Check in List</a></li>
           <li><a href="#">Others</a>
             <ul>
-              
+             
 			  
             <li><a href="#">final report</a>
                 <ul>
@@ -63,7 +63,7 @@
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; 2017 Swakop Mine Management System.</a> | <a 
+      <p>Copyright &copy; 2017 Swakop Mine Management System</a> | <a 
     </footer>
   </div>
   <p>&nbsp;</p>
