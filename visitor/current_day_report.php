@@ -18,7 +18,7 @@
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
           <h1><a href="index.php">Welcome to Swakop Mine Management System!!!!</a></h1>
-          <h2>Visitor Management System in mine..</h2>
+          <h2>Visitor Management System in mine</h2>
         </div>
       </div>
       <nav>
@@ -27,10 +27,9 @@
           
           <li><a href="check_in.php">Check in</a></li>
           <li><a href="check_out.php">Check Out</a></li>
-		  <li><a href="check_in_list.php">Check in List</a></li>
           <li><a href="#">Others</a>
             <ul>
-         
+              <li><a href="search.php">Search visitors</a></li>
 			  
             <li><a href="#">final report</a>
                 <ul>
@@ -44,16 +43,15 @@
             
             </ul>
           </li>
-          
+         
       </nav>
     </header>
     <div id="site_content">
       
        <div id="sidebar_container">
+     
         <div class="sidebar">
-        
-        <div class="sidebar">
-          
+         
         </div>
       </div>
       <div class="content">
@@ -72,7 +70,7 @@ $result=mysql_query($sql);
 <td width="664" bordercolor="#00FF00" bgcolor="red">
 <table width="654" border="1" cellspacing="0" cellpadding="3" bgcolor="#CC0033">
 <tr>
-<td colspan="4"><strong>visitors List Which comes in mine Today </strong> </td>
+<td colspan="4"><strong>Visitors List Which comes in mine Today </strong> </td>
 </tr>
 
 <tr>
@@ -113,7 +111,7 @@ mysql_close();
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; 2014 Welcome to Swakop Mine Management System!!!!</p>
+      <p>Copyright &copy; 2017 Welcome to Swakop Mine Management System!!!!</p>
     </footer>
   </div>
   <p>&nbsp;</p>

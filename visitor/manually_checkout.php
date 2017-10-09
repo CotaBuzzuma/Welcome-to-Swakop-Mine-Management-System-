@@ -31,7 +31,6 @@ $checkin=($_GET['checkin_id']);
           
           <li><a href="check_in.php">Check in</a></li>
           <li><a href="check_out.php">Check Out</a></li>
-		  <li><a href="check_in_list.php">Check in List</a></li>
           <li><a href="#">Others</a>
             <ul>
               <li><a href="search.php">Search visitor</a></li>
