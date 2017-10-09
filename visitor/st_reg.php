@@ -56,7 +56,7 @@
       </div>
       <div class="content">
         <h1>visitor Registration Page</h1>
-		<p><img src="images/st_reg.jpg " alt="check in" height="100" width="642" /></p>
+		<p><img src="images/st.jpg " alt="check in" height="100" width="642" /></p>
        <form name="form1" method="post"  action="st_reg_ac.php">
   <table width="64%" height="250" border="0" cellpadding="3" cellspacing="1">
     <tr>
@@ -74,6 +74,16 @@
     </tr>
     <tr>
       <td height="43">visitor Roll Number </td>
+      <td>:</td>
+      <td><input name="st_rn" type="text" id="st_rn" /></td>
+    </tr>
+       <tr>
+      <td height="43">Reason for visiting</td>
+      <td>:</td>
+      <td><input name="st_rn" type="text" id="st_rn" /></td>
+    </tr>
+       <tr>
+      <td height="43">Department</td>
       <td>:</td>
       <td><input name="st_rn" type="text" id="st_rn" /></td>
     </tr>

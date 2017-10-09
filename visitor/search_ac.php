@@ -17,7 +17,7 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">CSS3<span class="logo_colour">_seascape</span></a></h1>
+          <h1><a href="index.html"><span class="logo_colour"></span></a></h1>
           <h2></h2>
         </div>
       </div>
@@ -25,8 +25,7 @@
         <ul class="sf-menu" id="nav">
           <li><a href="index.html">Home</a></li>
          
-          </li>
-        
+      
       </nav>
     </header>
     <div id="site_content">
@@ -34,10 +33,11 @@
       <div id="sidebar_container">
        
         <div class="sidebar">
-          
+        
+        </div>
       </div>
       <div class="content">
-      
+        <h1>Search Result</h1>
 		
       <?php
 	  //get value from form
@@ -80,10 +80,12 @@ $result=mysql_query($sql3);
 
 <tr>
 
-<td width="109" align="center" bgcolor="#00FF00"><strong>Roll Number</strong></td>
+<td width="109" align="center" bgcolor="#00FF00"><strong>ID Number</strong></td>
 <td width="137" align="center"><strong>Name</strong></td>
 <td width="164" align="center"><strong>Time in</strong></td>
 <td width="210" align="center"><strong>Time out</strong></td>
+    <td width="210" align="center"><strong>Reason for visiting</strong></td>
+    <td width="210" align="center"><strong>Department</strong></td>
 </tr>
 
 <?php
@@ -111,7 +113,7 @@ mysql_close();
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; 2017 Welcome to Swakop Mine Management System!!!! </a></p>
+      <p>Copyright &copy; 2014 <a href="http://www.grprajapat.blogspot.com">grprajapat.blogspot.com </a> | <a href="http://www.grprajapat.meximas.com">Developed By-Govind Prajapat. </a></p>
     </footer>
   </div>
   <p>&nbsp;</p>

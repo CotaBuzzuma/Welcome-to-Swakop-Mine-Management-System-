@@ -75,7 +75,11 @@ $result=mysql_query($sql);
 <td width="106" align="center" bgcolor="#00FF00"><strong>visitor ID</strong></td>
 <td width="117" align="center"><strong>visitor Name</strong></td>
 <td width="139" align="center"><strong>visitor Roll Number</strong></td>
-<td width="240" align="center"><strong>Year</strong></td>
+<td width="240" align="center"><strong>Reason for visiting</strong></td>
+    <td width="240" align="center"><strong>Department</strong></td>
+
+    <td width="240" align="center"><strong>Year</strong></td>
+
 
 </tr>
 

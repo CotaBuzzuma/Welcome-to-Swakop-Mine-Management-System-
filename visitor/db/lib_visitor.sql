@@ -38,13 +38,13 @@ CREATE TABLE IF NOT EXISTS `st_detail` (
 -- Dumping data for table `st_detail`
 --
 
-INSERT INTO `st_detail` (`visitor_id`, `st_name`, `st_rollnumber`, `st_year`) VALUES
-('12', 'govind', '12egccs201', '4 year'),
-('1255', 'ram', '123bbcs201', '2 year'),
-('22', 'ghanshyam', '12ebbcs202', '3 year'),
-('43543', 'ramesh', '12egctd021', '3 year'),
-('456', 'ramesh', '11egcit045', '2 year'),
-('546', 'vinod', '11egccs025', '3 year');
+INSERT INTO `st_detail` (`visitor_id`, `st_name`, `st_rollnumber`,, `reason for visiting`, `department`, `year`) VALUES
+('12', 'govind', '12egccs201', 'Picking up new forms', 'HR', '4 year'),
+('1255', 'ram', '123bbcs201','Picking up new forms', 'HR', '2 year'),
+('22', 'ghanshyam', '12ebbcs202','Picking up new forms', 'HR', '3 year'),
+('43543', 'ramesh', '12egctd021','Picking up new forms', 'HR', '3 year'),
+('456', 'ramesh', '11egcit045','Picking up new forms', 'HR', '2 year'),
+('546', 'vinod', '11egccs025','Picking up new forms', 'HR', '3 year');
 
 -- --------------------------------------------------------
 
