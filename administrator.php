@@ -52,7 +52,7 @@ error_reporting(E_ERROR | E_PARSE);
           <ul class="dropdown-menu">
             <li><a href="time_in.php">TIME_IN</a></li>
             <li><a href="time_out.php">TIME_OUT</a></li>
-             <li><a href="">VIEW RECORDS</a></li>
+             <li><a href="ViewRecords.php">VIEW RECORDS</a></li>
           </ul>
            
         </li>
